@@ -7,6 +7,6 @@ def divide(a, b):
     except TypeError:
         return "Error: inputs must be numbers"
 
-print(divide(10, 2))
-print(divide(10, 0))
+print(divide(8, 2))
+print(divide(77, 0))
 print(divide(10, "x"))
