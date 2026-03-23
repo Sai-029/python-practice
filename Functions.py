@@ -1,9 +1,8 @@
-def greet(name):
-    return f"Hello, {name}!"
-def add(a, b):
-    return a + b
-def is_even(n):
-    return n % 2 == 0
-print(greet("sai"))
-print(add(10, 5))
-print(is_even(4))
+def msg(a):
+    return a
+print(msg("Welcome Guys.."))
+
+def add_sub(x,y):
+    return x+y, x-y
+result = add_sub(10,5)
+print("Addition and Subtraction:", result)
